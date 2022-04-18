@@ -23,14 +23,7 @@ const baseUrl = 'https://api.nasa.gov/planetary/apod?api_key=';
         //  nasarequested();
         dateData = dateInput.value;
         console.log('dateData--------------------------->',e)
-    })
-    // dateInput.addEventListener('click',(e)=>{
-    //     console.log('wwwwwwwwwwwww--------------------------->',e)
-    // })
-    // calendar.addEventListener('click',(e)=>{
-    //     console.log('sssssssssss--------------------------->',e)
-
-    // })
+    });
 
     function diplaydata(data){
 
